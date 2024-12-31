@@ -31,8 +31,8 @@ pnpm - 9.12.3
 # Create an environment file
 `cp .env.example .env`
 
-# Add direct client to environment file
-1. open .env file
+# Add direct client and ollama model to character file
+1. open /src/character.ts file
 2. change  
 ~~//clients: [],~~
 ```
