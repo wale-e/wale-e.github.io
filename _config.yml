@@ -1,0 +1,8 @@
+title: Walee's Blog
+description: >- 
+  A blog to discuss all things Ai Agent Frameworks and Platforms
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
