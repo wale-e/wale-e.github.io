@@ -35,6 +35,8 @@ clients: [Clients.DIRECT],
 modelProvider: ModelProviderName.OLLAMA,
 ```
 
+![character.ts](/assets/images/default_eliza_env_settings.png)
+
 # Install the node modules required by the Eliza agent 
 `pnpm i`
 
@@ -44,6 +46,7 @@ modelProvider: ModelProviderName.OLLAMA,
 # Chat with you Eliza agent
 - Type after the "You:" prompt <br/>
 *Note The first time, your computer will download a small ollama model*
+![agent terminal](/assets/images/eliza_hello_world_terminal.png)
 <br/><br/>
 
 ---
