@@ -12,7 +12,7 @@ categories: ai agent framework
 > For **pnpm**: In a terminal, run the command `npm install -g pnpm`
 
 ---
-Use the following versions when writing this blog  
+Used the following versions when writing this blog  
 node - v23.2.0  
 npm - 10.9.0  
 pnpm - 9.12.3  
