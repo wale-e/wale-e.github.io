@@ -12,6 +12,8 @@ Used the following versions when writing this blog
 python - 3.12.8  (had issues with 3.13.1)  
 poetry - 1.8.5  
 
+**Check out my GitHub repository for the source code: [Zerepy Hello World](https://github.com/wale-e/ZerePy)**
+
 # Installation
 First install python (version 3.12.8) if you haven't, [Python downloads](https://www.python.org/downloads/)  
 
