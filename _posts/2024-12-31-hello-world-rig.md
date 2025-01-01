@@ -35,9 +35,7 @@ cargo add anyhow
 [Ollama Website](https://ollama.com/)
 
 # Pull down the llama3.2:1b model
-`
-ollama run llama3.2:1b
-`
+`ollama run llama3.2:1b`
 
 # Confirm Ollama is running in a browser
 [Open Local Ollama](http://localhost:11434/)
