@@ -24,8 +24,9 @@ categories: ai agent framework
 # Change to the newly created project directory
 `cd rig_hello_world`
 
-# Add rig-core, tokio, and anyhow dependency to project
+# Add rig-core, tokio, and anyhow crates to Cargo.toml
 ```
+[dependencies]
 cargo add rig-core
 cargo add tokio --features full
 cargo add anyhow
