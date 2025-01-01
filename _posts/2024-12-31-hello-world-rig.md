@@ -24,9 +24,8 @@ categories: ai agent framework
 # Change to the newly created project directory
 `cd rig_hello_world`
 
-# Add rig-core, tokio, and anyhow crates to Cargo.toml
+# Add rig-core, tokio, and anyhow dependency to Project
 ```
-[dependencies]
 cargo add rig-core
 cargo add tokio --features full
 cargo add anyhow
@@ -34,6 +33,11 @@ cargo add anyhow
 
 # Download and install Ollama for your OS
 [Ollama Website](https://ollama.com/)
+
+# Pull down the llama3.2:1b model
+`
+ollama run llama3.2:1b
+`
 
 # Confirm Ollama is running in a browser
 [Open Local Ollama](http://localhost:11434/)
