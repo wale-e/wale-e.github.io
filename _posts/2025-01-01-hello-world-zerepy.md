@@ -2,7 +2,7 @@
 layout: post
 title:  "Zerepy: Hello World"
 date:   2025-01-01 21:03:00 -0000
-categories: ai agent framework zerepy zerebro
+categories: ai agent framework
 ---
 
 

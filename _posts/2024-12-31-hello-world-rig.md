@@ -2,7 +2,7 @@
 layout: post
 title:  "Rig: Hello World"
 date:   2025-01-01 13:20:00 -0000
-categories: ai agent framework rig arc
+categories: ai agent framework
 ---
 
 # Assumptions<br/>
