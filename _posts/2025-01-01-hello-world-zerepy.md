@@ -13,6 +13,18 @@ python - 3.12.8  (had issues with 3.13.1)
 poetry - 1.8.5  
 
 **Check out my GitHub repository for the source code: [Zerepy Hello World](https://github.com/wale-e/ZerePy)**
+```shell
+# A faster path is to clone the repository in the link
+git clone https://github.com/wale-e/ZerePy.git
+# change to the zerepy direction
+cd zerepy
+# install python 3.12.8
+# install poetry
+poetry env use python3.12  # Ensure the correct Python version
+# install dependencies
+poetry install --no-root
+# Follow instructions from "Activate the virtual environment" Below
+```
 
 # Installation
 First install python (version 3.12.8) if you haven't, [Python downloads](https://www.python.org/downloads/)  
