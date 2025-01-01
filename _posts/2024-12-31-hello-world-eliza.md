@@ -2,7 +2,7 @@
 layout: post
 title:  "Eliza: Hello World"
 date:   2024-12-31 15:28:00 -0000
-categories: ai agent framework
+categories: ai agent framework eliza ai16z
 ---
 
 # Create your first Eliza Agent  
@@ -23,13 +23,19 @@ pnpm - 9.12.3
 *Open a command line terminal and run the following commands*
 
 # Clone the Eliza Starter Repository
-`git clone https://github.com/elizaOS/eliza-starter.git`
+```shell
+git clone https://github.com/elizaOS/eliza-starter.git
+```
 
 # Change directory to the cloned repository
-`cd eliza-starter`
+```shell 
+cd eliza-starter
+```
 
 # Create an environment file
-`cp .env.example .env`
+```shell
+cp .env.example .env
+```
 
 # Add direct client and ollama model to character file
 1. open /src/character.ts file
@@ -47,10 +53,14 @@ modelProvider: ModelProviderName.OLLAMA,
 ![character.ts](/assets/images/default_eliza_env_settings.png)
 
 # Install the node modules required by the Eliza agent 
-`pnpm i`
+```shell
+pnpm i
+```
 
 # Start the default Eliza agent
-`pnpm start`
+```shell
+pnpm start
+```
 
 # Chat with you Eliza agent
 - Type after the "You:" prompt  

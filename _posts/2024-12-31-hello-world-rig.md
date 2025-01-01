@@ -2,7 +2,7 @@
 layout: post
 title:  "Rig: Hello World"
 date:   2025-01-01 13:20:00 -0000
-categories: ai agent framework
+categories: ai agent framework rig arc
 ---
 
 # Assumptions<br/>
@@ -16,16 +16,22 @@ categories: ai agent framework
 
 # Install Rust
 *If you haven't installed Rust yet, install it using rustup*  
-`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+```shell 
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
 
 # Create a new Rust project
-`cargo new rig_hello_world`
+```shell
+cargo new rig_hello_world
+```
 
 # Change to the newly created project directory
-`cd rig_hello_world`
+```shell
+cd rig_hello_world
+```
 
 # Add rig-core, tokio, and anyhow dependency to Project
-```
+```shell
 cargo add rig-core
 cargo add tokio --features full
 cargo add anyhow
@@ -35,14 +41,16 @@ cargo add anyhow
 [Ollama Website](https://ollama.com/)
 
 # Pull down the llama3.2:1b model
-`ollama run llama3.2:1b`
+```shell
+ollama run llama3.2:1b
+```
 
 # Confirm Ollama is running in a browser
 [Open Local Ollama](http://localhost:11434/)
 - if running, should see a respone "Ollama is running"
 
 # Replace the content of src/main.rs with below
-```
+```rust
 /// This example requires that you have the [`ollama`](https://ollama.com) server running locally.
 use rig::{completion::Prompt, providers};
 
@@ -69,7 +77,9 @@ async fn main() -> Result<(), anyhow::Error> {
 ```
 
 # Run the Rig agent
-`cargo run`  
+```shell
+cargo run
+``` 
 
 * Output should be a joke from the llama model
 
