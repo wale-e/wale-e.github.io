@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Eliza: Hello World"
 date:   2024-12-31 15:28:00 -0000
 categories: ai agent framework

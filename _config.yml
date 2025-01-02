@@ -1,8 +1,15 @@
 title: Walee's Blog
 description: >- 
   A blog to discuss all things Ai Agent Frameworks and Platforms
-theme: minima
+theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+defaults:
+  - scope:
+      path: ""        # An empty path means "all files in the project"
+      type: "posts"   # Only apply to Jekyll posts
+    values:
+      layout: default # or "post" if Cayman defines a special layout
+
 

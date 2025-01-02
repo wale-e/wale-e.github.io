@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Home"
+title: "Walee's Blog"
 ---
 
 # Welcome to the Ai Agentic World
