@@ -11,5 +11,6 @@ defaults:
       type: "posts"   # Only apply to Jekyll posts
     values:
       layout: default # or "post" if Cayman defines a special layout
+google_analytics: G-QBHYHVJ3EE
 
 
