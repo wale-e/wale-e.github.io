@@ -15,16 +15,14 @@ poetry - 1.8.5
 **Check out my GitHub repository for the source code: [Zerepy Hello World](https://github.com/wale-e/ZerePy)**
 # Faster Route
 ```shell
-# A faster path is to clone the repository in the link
-git clone https://github.com/wale-e/ZerePy.git
-# change to the zerepy direction
-cd zerepy
-# install python 3.12.8
-# install poetry
-poetry env use python3.12  # Ensure the correct Python version
-# install dependencies
-poetry install --no-root
-# Follow instructions from "Activate the virtual environment" Below
+git clone --branch ollama https://github.com/wale-e/ZerePy.git   # clone repository
+cd zerepy  # change to the zerepy direction
+# install python 3.12.8  (instructions below)
+# install poetry 1.8.5   (instructions below)
+poetry env use python3.12    # ensure poetry the correct Python version
+poetry install --no-root   # install dependencies
+poetry shell    # activate the virtual environment"
+# follow step from "Run the agent below"
 ```
 
 # Longer Detailed Route
@@ -55,6 +53,11 @@ cd zerepy
 poetry install --no-root
 ```
 This will create a virtual environment and install all required dependencies.
+
+# Ensure poetry uses the correct Python version
+```shell
+poetry env use python3.12
+```
 
 # In src/connections/ folder create ollama_connection.py
 ```shell
@@ -126,7 +129,7 @@ touch ./agents/ollama.json
 ```
 
 # Copy the copy of this file from github into agents/ollama.json
-[ollama.json](https://github.com/wale-e/ZerePy/blob/main/agents/ollama.json)
+[ollama.json](https://github.com/wale-e/ZerePy/blob/ollama/agents/ollama.json)
 
 # Edit agents/general.json to make Ollama the default agent on startup
 ```json
